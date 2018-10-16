@@ -7,7 +7,7 @@
         <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
         <hr class="my-4">
         <p class="lead">
-            <button class="btn btn-dark" href="#">Register Now</button>
+            <a class="btn btn-dark" href="{{route('sign-up')}}">Register Now</a>
         </p>
     </div>
 @stop

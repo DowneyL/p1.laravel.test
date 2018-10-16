@@ -13,3 +13,6 @@
 Route::get('/', 'StaticPagesController@home')->name('home');
 Route::get('/help', 'StaticPagesController@help')->name('help');
 Route::get('/about', 'StaticPagesController@about')->name('about');
+
+// login and register route
+Route::get('/sign-up', 'UserController@create')->name('sign-up');
