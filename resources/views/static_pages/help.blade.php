@@ -1,6 +1,6 @@
 @extends('layouts.default')
-@section('title', '帮助')
+@section('title', trans('static.help'))
 
 @section('content')
-    <h1>帮助</h1>
+    <h1>{{ trans('static.help') }}</h1>
 @stop

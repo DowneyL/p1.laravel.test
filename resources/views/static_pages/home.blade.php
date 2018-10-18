@@ -1,5 +1,5 @@
 @extends('layouts.default')
-@section('title', '主页')
+@section('title', trans('static.home'))
 
 @section('content')
     <div class="jumbotron mt-3">
@@ -7,7 +7,7 @@
         <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
         <hr class="my-4">
         <p class="lead">
-            <a class="btn btn-dark" href="{{route('sign-up')}}">Register Now</a>
+            <a class="btn btn-dark" href="{{route('sign-up')}}">{{ trans('static.sign_up') }}</a>
         </p>
     </div>
 @stop

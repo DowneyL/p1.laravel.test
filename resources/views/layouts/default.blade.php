@@ -10,10 +10,10 @@
 </head>
 <body>
 @include('layouts._header')
-
-<div class="container">
+<section class="content container">
+    @include('shared._messages')
     @yield('content')
-    @include('layouts._footer')
-</div>
+</section>
+@include('layouts._footer')
 </body>
 </html>
